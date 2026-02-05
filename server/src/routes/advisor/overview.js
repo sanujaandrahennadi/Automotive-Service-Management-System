@@ -1,0 +1,10 @@
+import { Router } from 'express';
+import { getOverview } from '../../controllers/advisor/overviewController.js';
+
+const router = Router();
+
+router.get('/overview', getOverview);
+
+export default router;
+
+
